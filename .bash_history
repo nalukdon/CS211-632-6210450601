@@ -71,3 +71,31 @@ git status
 git add .
 dir
 git status
+git clone https://github.com/nalukdon/CS211-632-6210450601
+git pull
+git branch
+git branch member1
+git branch
+git checkout member1
+git branch
+dir
+git status
+git add .
+git status
+git add .
+git commit -m "Add m1 work"
+git log --all --decorate --oneline --graph
+git push -u origin member1
+git branch
+git merge
+git status
+git branch
+git merge member1
+git status
+git add .
+git push -u origin member1
+git log --all --decorate --oneline --graph
+git merge master
+git log --all --decorate --oneline --graph
+git status
+git push --all
